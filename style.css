@@ -830,6 +830,9 @@ button{
 
 .pp-thumbnail img{
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pp-header h3{
