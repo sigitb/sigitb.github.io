@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGIT BUDIANTO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        
+        <!-- page loader start -->
+        <div class="page-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- page loader end -->
+
+        <!-- background circles start -->
+        <div class="bg-circles">
+            <div class="circles-1"></div>
+            <div class="circles-2"></div>
+            <div class="circles-3"></div>
+            <div class="circles-4"></div>
+        </div>
+        <!-- background circles end -->
+
+        <!-- overlay start -->
+        <div class="overlay">
+        </div>
+        <!-- overlay end -->
+
+
+        <!-- header start -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">About</a></li>
+                                <li><a href="#portofolio" class="nav-item link-item">Portofolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- home section start -->
+        <section class="home-section align-item-center active" id="home">
+            <div class="container">
+                <div class="row align-item-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Sigit Budianto</h1>
+                        <h2>Web Developer</h2>
+                        <a href="#about" class="btn link-item">more about me</a>
+                        <a href="#portofolio" class="btn link-item">Project</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="img/1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home section end -->
+
+        <!-- about section start-->
+        <section class="about-section sec-padding " id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="img/1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>A high school graduate backend developer, although my last
+                        education is high school, but I have an extraordinary passion in the IT world, moreover I like challenges, I handle
+                        various projects for more than 1 years with experience as a backend developer.</p>
+                        <h3>skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">JAVASCRIPT</div>
+                            <div class="skill-item">PHP</div>
+                            <div class="skill-item">JQUERY</div>
+                            <div class="skill-item">BOOSTRAP</div>
+                            <div class="skill-item">NODE JS</div>
+                            <div class="skill-item">Express JS</div>
+                            <div class="skill-item">GOLANG</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">education</button>
+                            <button type="button" class="tab-item" data-target="#experience">experient</button>
+                        </div>
+
+                        <!-- education start -->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2017 - 2020</span>
+                                    <h1>Sekolah Menengah Kejuruan - <span>SMK Cendekia Lasem</span></h1>
+                                    <p style="font-size: 15px;">SMK CENDEKIA LASEM adalah salah satu satuan pendidikan dengan jenjang SMK di Sriombo, Kec. Lasem, Kab. Rembang, Jawa
+                                    Tengah.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- education end -->
+
+                        <!-- experience start  -->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2021 - Sekarang</span>
+                                    <h4>Web Developer -  <span>PT Majaphit Nusantara Indonesia</span></h4>
+                                    <p>Saya di PT Majapahit Teknologi Indonesia sebagai web developer.
+                                        <br> Saat ini bekerja sebagai pengembang Web
+                                        <br> - Terbiasa bekerja dengan metode jail scrum.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2019 - 2019</span>
+                                    <h4>Web Developer -  <span>PT Nusantara Global Inovasi (Magang)</span></h4>
+                                    <p>Saya di PT Nusantara Global Inovasi sebagai web developer, dan saat itu saya membuat apliaksi POS (Point Of Sale) </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- experience end -->
+                        <a href="file/resume.pdf" target="_blank" class="btn">download cv</a>
+                        <a href="#contact" class="btn link-item">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end-->
+        <!-- portofolio section start -->
+        <section class="portofolio-section sec-padding" id="portofolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Project</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- portofolio item start -->
+                    <div class="portofolio-item">
+                        <div class="portofolio-item-thumbnail">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <h3 class="portofolio-item-title">HR SYSTEM</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portofolio-item-details">
+                            <div class="description">
+                                <p>HR-SYSTEM adalah sistem berbentuk website yang berguna untuk keperluan HRD di PT. Majapahit Teknologi</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>Mai 2022</span></li>
+                                    <li>Tecnologi - <span>Laravel</span></li>
+                                    <li>Role - <span>Web Developer</span></li>
+                                    <li>View website - <a href="https://hr-system.majapahit.id/" target="_blank">https://hr-system.majapahit.id/</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portofolio-item">
+                        <div class="portofolio-item-thumbnail">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <h3 class="portofolio-item-title">SPDNIA Admin CMS</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portofolio-item-details">
+                            <div class="description">
+                                <p>SP DNIA adalah aplikasi yang dipersembahkan oleh Serikat Pekerja Denso Indonesia untuk seluruh anggota SP DNIA di
+                                seluruh Indonesia.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>Maret 2022</span></li>
+                                    <li>Tecnologi - <span>Laravel</span></li>
+                                    <li>Role - <span>Web Developer</span></li>
+                                    <li>View website - <a href="https://admin.spdnia.org/" target="_blank">https://admin.spdnia.org/</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portofolio-item">
+                        <div class="portofolio-item-thumbnail">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <h3 class="portofolio-item-title">Simonas (Kominfo)</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portofolio-item-details">
+                            <div class="description">
+                                <p>Simonas adalah singkatan dari Sistem Informasi Monitoring Alumni Sertifikasi. Aplikasi Simonas bertujuan untuk
+                                mempertemukan para kandidat yang telah dinyatakan kompeten dan memiliki sertifikat kompetensi SKKNI dengan Para
+                                Perusahaan/Startup yang membuka lowongan secara gratis. Kandidat yang terdaftar pada Aplikasi Simonas telah dinyatakan
+                                kompeten dan memiliki sertifikat SKKNI.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>Okt 2021</span></li>
+                                    <li>Tecnologi - <span>Laravel</span></li>
+                                    <li>Role - <span>Web Developer</span></li>
+                                    <li>View website - <a href="https://simonas.kominfo.go.id/" target="_blank">https://simonas.kominfo.go.id/</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portofolio-item">
+                        <div class="portofolio-item-thumbnail">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <h3 class="portofolio-item-title">Jimshoney Official</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portofolio-item-details">
+                            <div class="description">
+                                <p>Web E-Commerce yang sebelumnya menggunakan Wordpress dan sekarang dibangun ulang menggunakan Framework Laravel.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>Jul 2021</span></li>
+                                    <li>Tecnologi - <span>Laravel</span></li>
+                                    <li>Role - <span>Web Developer</span></li>
+                                    <li>View website - <a href="https://jimshoneyofficial.com/" target="_blank">https://jimshoneyofficial.com/</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portofolio-item">
+                        <div class="portofolio-item-thumbnail">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <h3 class="portofolio-item-title">Akebono Suplier</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portofolio-item-details">
+                            <div class="description">
+                                <p>Akebono Brake merupakan salah satu brand andalan PT Astra Otoparts Tbk. Akebono merupakan brand kampas rem yang
+                                mengutamakan performa dan kualitas. Kualitas terbaik Akebono tersebut diproduksi oleh Supplier OEM (Original Equipment
+                                Manufacturing Quality) yaitu PT Akebono Brake Astra Indonesia (AAIJ).</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>Mei 2021</span></li>
+                                    <li>Tecnologi - <span>Laravel</span></li>
+                                    <li>Role - <span>Web Developer</span></li>
+                                    <li>View website - <a href="-" target="_blank">Website Local Akebono</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- portofolio item end -->
+                </div>
+            </div>
+        </section>
+        <!-- portofolio section end -->
+        
+        <!-- contact section start -->
+        <section class="contact-section sec-padding " id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control"></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <a href="https://api.whatsapp.com/send/?phone=089601030368&text&app_absent=0" target="_blank" type="submit" class="btn">Send Message</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>sigitbudianto423@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>089601030368</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>follow me</h3>
+                            <div class="social-links">
+                                <a href="https://api.whatsapp.com/send/?phone=089601030368&text&app_absent=0" target="_blank"><i class="fas fa-phone-alt"></i></a>
+                                <a href="https://www.instagram.com/shigiets/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://github.com/sigitb" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end -->
+    </div>
+
+
+    <!-- portofolio item popup start -->
+    <div class="portofolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fa fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    <h3>app lending</h3>
+                </div>
+                <div class="pp-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portofolio item popup end -->
+
+    <script src="script.js"></script>
+</body>
+</html>
